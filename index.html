@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Pakistan's Premier Beauty & Salon Ranking Network — Discover, Trust & Book the best salons."/>
+<title>LuxeBeauty Pakistan — Premium Salon Ranking Network</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Luxe<span>Beauty</span> PK</div>
+  <ul class="nav-links">
+    <li><a href="#">Explore</a></li>
+    <li><a href="#">Top Ranked</a></li>
+    <li><a href="pages/cities.html">Cities</a></li>
+    <li><a href="#">Categories</a></li>
+  </ul>
+  <button class="nav-cta">Register Salon</button>
+  <button class="nav-hamburger" id="hamburger">☰</button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#">Explore</a>
+  <a href="#">Top Ranked</a>
+  <a href="#">Cities</a>
+  <a href="#">Categories</a>
+  <a href="#">Register Salon</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-orb"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Pakistan's Premier Beauty Authority</div>
+    <h1 class="hero-title">Discover <em>Pakistan's</em><br/>Most Trusted<br/>Luxury Salons</h1>
+    <p class="hero-subtitle">Ranked by real customers. Verified by quality.<br/>Designed for beauty excellence.</p>
+    <div class="search-box">
+      <div class="search-row">
+        <input class="search-input" type="text" placeholder="Search salons, bridal makeup, hair experts…"/>
+        <select class="search-select">
+          <option>All Cities</option>
+          <option>Lahore</option>
+          <option>Karachi</option>
+          <option>Islamabad</option>
+          <option>Peshawar</option>
+          <option>Faisalabad</option>
+          <option>Rawalpindi</option>
+          <option>Multan</option>
+        </select>
+        <button class="search-btn">Search</button>
+      </div>
+      <div class="filter-chips">
+        <span class="chip active">All</span>
+        <span class="chip">Bridal</span>
+        <span class="chip">Hair</span>
+        <span class="chip">Makeup</span>
+        <span class="chip">Facial</span>
+        <span class="chip">Spa</span>
+        <span class="chip">Mehndi</span>
+      </div>
+    </div>
+    <div class="hero-btns">
+      <button class="btn-primary">Explore Top Ranked Salons</button>
+      <button class="btn-secondary">Register Your Salon</button>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num">4,800+</div><div class="stat-label">Verified Salons</div></div>
+  <div class="stat"><div class="stat-num">12</div><div class="stat-label">Major Cities</div></div>
+  <div class="stat"><div class="stat-num">98K+</div><div class="stat-label">Trusted Reviews</div></div>
+  <div class="stat"><div class="stat-num">4.9★</div><div class="stat-label">Average Rating</div></div>
+</div>
+
+<!-- FEATURED SALONS -->
+<section class="salons-section">
+  <div class="salons-header">
+    <div>
+      <div class="section-eyebrow">Elite Collection</div>
+      <h2 class="section-title">Featured <em>Luxury</em> Salons</h2>
+    </div>
+    <a href="pages/salons.html" class="view-all">View All Salons →</a>
+  </div>
+  <div class="carousel" id="salonCarousel">
+    <div class="salon-card" onclick="location.href='pages/salon-detail.html'">
+      <div class="salon-img">
+        <div class="salon-img-inner grad-rose"></div>
+        <div class="salon-badges">
+          <span class="badge-verified">✓ Verified</span>
+          <span class="badge-featured">Featured</span>
+        </div>
+      </div>
+      <div class="salon-body">
+        <div class="salon-name">Maison de Beauté</div>
+        <div class="salon-meta">
+          <div class="salon-rating">★★★★★ <span class="muted">4.9 (284)</span></div>
+          <div class="salon-location">📍 Gulberg, Lahore</div>
+        </div>
+        <div class="salon-tags"><span class="tag">Bridal</span><span class="tag">Makeup</span><span class="tag">Hair</span></div>
+        <div class="salon-actions">
+          <button class="btn-view">View Profile</button>
+          <button class="btn-wa">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+    <div class="salon-card">
+      <div class="salon-img">
+        <div class="salon-img-inner grad-navy"></div>
+        <div class="salon-badges"><span class="badge-verified">✓ Verified</span></div>
+      </div>
+      <div class="salon-body">
+        <div class="salon-name">The Gold Vanity</div>
+        <div class="salon-meta">
+          <div class="salon-rating">★★★★★ <span class="muted">4.8 (196)</span></div>
+          <div class="salon-location">📍 DHA, Karachi</div>
+        </div>
+        <div class="salon-tags"><span class="tag">Spa</span><span class="tag">Facial</span></div>
+        <div class="salon-actions">
+          <button class="btn-view">View Profile</button>
+          <button class="btn-wa">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+    <div class="salon-card">
+      <div class="salon-img">
+        <div class="salon-img-inner grad-purple"></div>
+        <div class="salon-badges">
+          <span class="badge-verified">✓ Verified</span>
+          <span class="badge-featured">Featured</span>
+        </div>
+      </div>
+      <div class="salon-body">
+        <div class="salon-name">Atelier Élégance</div>
+        <div class="salon-meta">
+          <div class="salon-rating">★★★★★ <span class="muted">4.9 (312)</span></div>
+          <div class="salon-location">📍 F-7, Islamabad</div>
+        </div>
+        <div class="salon-tags"><span class="tag">Bridal</span><span class="tag">Mehndi</span></div>
+        <div class="salon-actions">
+          <button class="btn-view">View Profile</button>
+          <button class="btn-wa">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+    <div class="salon-card">
+      <div class="salon-img">
+        <div class="salon-img-inner grad-olive"></div>
+        <div class="salon-badges"><span class="badge-verified">✓ Verified</span></div>
+      </div>
+      <div class="salon-body">
+        <div class="salon-name">Lumière Beauty Studio</div>
+        <div class="salon-meta">
+          <div class="salon-rating">★★★★☆ <span class="muted">4.7 (158)</span></div>
+          <div class="salon-location">📍 Bahria, Lahore</div>
+        </div>
+        <div class="salon-tags"><span class="tag">Hair</span><span class="tag">Nails</span></div>
+        <div class="salon-actions">
+          <button class="btn-view">View Profile</button>
+          <button class="btn-wa">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+    <div class="salon-card">
+      <div class="salon-img">
+        <div class="salon-img-inner grad-teal"></div>
+        <div class="salon-badges"><span class="badge-verified">✓ Verified</span></div>
+      </div>
+      <div class="salon-body">
+        <div class="salon-name">Pearl Aesthetics</div>
+        <div class="salon-meta">
+          <div class="salon-rating">★★★★★ <span class="muted">4.8 (220)</span></div>
+          <div class="salon-location">📍 Clifton, Karachi</div>
+        </div>
+        <div class="salon-tags"><span class="tag">Skin</span><span class="tag">Laser</span></div>
+        <div class="salon-actions">
+          <button class="btn-view">View Profile</button>
+          <button class="btn-wa">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CITIES -->
+<section class="cities-section">
+  <div class="section-eyebrow">Explore By Location</div>
+  <h2 class="section-title">Beauty Across <em>Pakistan</em></h2>
+  <p class="section-sub">From Karachi's coast to Lahore's heritage — discover premium salons in every major city.</p>
+  <div class="cities-grid">
+    <div class="city-card city-lg">
+      <div class="city-bg grad-city-lahore"></div>
+      <div class="city-overlay"></div>
+      <div class="city-glow"></div>
+      <div class="city-content">
+        <div class="city-name">Lahore</div>
+        <div class="city-count">1,840 Salons</div>
+        <button class="city-btn">Explore City →</button>
+      </div>
+    </div>
+    <div class="city-card">
+      <div class="city-bg grad-city-karachi"></div>
+      <div class="city-overlay"></div>
+      <div class="city-glow"></div>
+      <div class="city-content">
+        <div class="city-name">Karachi</div>
+        <div class="city-count">2,100 Salons</div>
+        <button class="city-btn">Explore →</button>
+      </div>
+    </div>
+    <div class="city-card">
+      <div class="city-bg grad-city-isb"></div>
+      <div class="city-overlay"></div>
+      <div class="city-glow"></div>
+      <div class="city-content">
+        <div class="city-name">Islamabad</div>
+        <div class="city-count">640 Salons</div>
+        <button class="city-btn">Explore →</button>
+      </div>
+    </div>
+    <div class="city-card">
+      <div class="city-bg grad-city-fsd"></div>
+      <div class="city-overlay"></div>
+      <div class="city-glow"></div>
+      <div class="city-content">
+        <div class="city-name">Faisalabad</div>
+        <div class="city-count">480 Salons</div>
+        <button class="city-btn">Explore →</button>
+      </div>
+    </div>
+    <div class="city-card">
+      <div class="city-bg grad-city-pesh"></div>
+      <div class="city-overlay"></div>
+      <div class="city-glow"></div>
+      <div class="city-content">
+        <div class="city-name">Peshawar</div>
+        <div class="city-count">320 Salons</div>
+        <button class="city-btn">Explore →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOP RANKED -->
+<section class="ranked-section">
+  <div class="section-eyebrow">Ranking Intelligence</div>
+  <h2 class="section-title">Top <em>Ranked</em> Salons</h2>
+  <p class="section-sub">Our proprietary AI + human verification system ranks the very best.</p>
+  <div class="ranked-grid">
+    <div class="rank-card rank-1" onclick="location.href='pages/salon-detail.html'">
+      <div class="rank-badge">#1</div>
+      <div class="rank-img grad-rose"></div>
+      <div class="rank-info">
+        <div class="rank-name">Maison de Beauté</div>
+        <div class="rank-city">📍 Gulberg III, Lahore</div>
+        <div style="display:flex;gap:8px;margin-bottom:12px"><span class="tag">Bridal</span><span class="tag">Makeup</span><span class="tag">Hair</span></div>
+        <div class="rank-score">
+          <div class="score-bar-wrap"><div class="score-bar" style="width:98%"></div></div>
+          <span class="score-num">9.8 / 10</span>
+        </div>
+      </div>
+      <button class="btn-view" style="align-self:center;padding:12px 28px">View Profile</button>
+    </div>
+    <div class="rank-card">
+      <div class="rank-badge">#2</div>
+      <div class="rank-img grad-purple" style="width:80px;height:80px"></div>
+      <div class="rank-info">
+        <div class="rank-name">Atelier Élégance</div>
+        <div class="rank-city">📍 F-7, Islamabad</div>
+        <div class="rank-score">
+          <div class="score-bar-wrap"><div class="score-bar" style="width:94%"></div></div>
+          <span class="score-num">9.4</span>
+        </div>
+      </div>
+    </div>
+    <div class="rank-card">
+      <div class="rank-badge">#3</div>
+      <div class="rank-img grad-navy" style="width:80px;height:80px"></div>
+      <div class="rank-info">
+        <div class="rank-name">The Gold Vanity</div>
+        <div class="rank-city">📍 DHA, Karachi</div>
+        <div class="rank-score">
+          <div class="score-bar-wrap"><div class="score-bar" style="width:91%"></div></div>
+          <span class="score-num">9.1</span>
+        </div>
+      </div>
+    </div>
+    <div class="rank-card">
+      <div class="rank-badge">#4</div>
+      <div class="rank-img grad-teal" style="width:80px;height:80px"></div>
+      <div class="rank-info">
+        <div class="rank-name">Lumière Beauty Studio</div>
+        <div class="rank-city">📍 Bahria Town, Lahore</div>
+        <div class="rank-score">
+          <div class="score-bar-wrap"><div class="score-bar" style="width:88%"></div></div>
+          <span class="score-num">8.8</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY TRUST -->
+<section class="trust-section">
+  <div class="section-eyebrow" style="text-align:center">Our Promise</div>
+  <h2 class="section-title" style="text-align:center">Why <em>Trust</em> LuxeBeauty PK</h2>
+  <div class="trust-pillars">
+    <div class="pillar">
+      <span class="pillar-icon">◈</span>
+      <div class="pillar-title">Verified Luxury Salons Only</div>
+      <p class="pillar-text">Every salon undergoes a rigorous verification process. No unverified listings, no compromises on quality.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">◈</span>
+      <div class="pillar-title">Real Customer Feedback</div>
+      <p class="pillar-text">Every review is from a verified customer. Authentic, trustworthy feedback you can always rely on.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">◈</span>
+      <div class="pillar-title">AI + Human Ranking</div>
+      <p class="pillar-text">Our proprietary ranking combines AI data analysis with expert human curation for Pakistan's most accurate rankings.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-line"></div>
+  <div class="section-eyebrow">For Salon Owners</div>
+  <h2 class="cta-title">Own a Salon? Get Discovered by<br/><em>Thousands of Premium Clients</em></h2>
+  <p class="cta-sub">Join Pakistan's most trusted beauty ranking network and unlock premium visibility.</p>
+  <div class="cta-btns">
+    <button class="btn-primary">Register Salon</button>
+    <button class="btn-secondary">Claim Listing</button>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi-section">
+  <div class="section-eyebrow">Client Voices</div>
+  <h2 class="section-title">What Our <em>Clients</em> Say</h2>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Found my bridal salon through LuxeBeauty PK and couldn't be more happy. The ranking system helped me trust my choice instantly.</p>
+      <div class="testi-footer">
+        <div class="testi-avatar">F</div>
+        <div><div class="testi-name">Fatima Malik</div><div class="testi-city">Lahore</div><div class="testi-stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">The verified reviews gave me so much confidence. Booked via WhatsApp — seamless and luxurious experience from start to finish.</p>
+      <div class="testi-footer">
+        <div class="testi-avatar">S</div>
+        <div><div class="testi-name">Sara Ahmed</div><div class="testi-city">Karachi</div><div class="testi-stars">★★★★★</div></div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">As a salon owner, registering on LuxeBeauty PK doubled our client inquiries within the first month. Incredible platform.</p>
+      <div class="testi-footer">
+        <div class="testi-avatar">N</div>
+        <div><div class="testi-name">Nadia Hussain</div><div class="testi-city">Islamabad</div><div class="testi-stars">★★★★★</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">LuxeBeauty PK</div>
+      <p class="footer-desc">Pakistan's premier beauty & salon ranking network. Connecting luxury clients with verified top-tier salons nationwide.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul class="footer-links">
+        <li><a href="#">Top Ranked Salons</a></li>
+        <li><a href="#">Bridal Specialists</a></li>
+        <li><a href="#">Hair Experts</a></li>
+        <li><a href="#">Spa & Wellness</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Cities</h4>
+      <ul class="footer-links">
+        <li><a href="#">Lahore</a></li>
+        <li><a href="#">Karachi</a></li>
+        <li><a href="#">Islamabad</a></li>
+        <li><a href="#">Faisalabad</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul class="footer-links">
+        <li><a href="#">Register Salon</a></li>
+        <li><a href="#">Claim Listing</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 LuxeBeauty Pakistan. All rights reserved.</div>
+    <div class="social-icons">
+      <a class="social-icon" href="#">in</a>
+      <a class="social-icon" href="#">ig</a>
+      <a class="social-icon" href="#">fb</a>
+      <a class="social-icon" href="#">yt</a>
+    </div>
+  </div>
+</footer>
+
+<a class="sticky-wa" href="https://wa.me/923000000000" target="_blank" title="WhatsApp Us">💬</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
